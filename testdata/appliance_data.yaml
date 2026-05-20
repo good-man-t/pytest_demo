@@ -1,0 +1,86 @@
+# 家电测试数据
+
+ac:
+  valid_temperatures:
+    - [16, "边界最小值"]
+    - [26, "常规制冷"]
+    - [30, "边界最大值"]
+
+  invalid_temperatures:
+    - [15, "低于最小值"]
+    - [31, "高于最大值"]
+    - [0, "零度"]
+
+  fan_speeds:
+    - ["low", "低风"]
+    - ["medium", "中风"]
+    - ["high", "高风"]
+    - ["auto", "自动"]
+
+  modes:
+    - ["cool", "制冷"]
+    - ["heat", "制热"]
+    - ["fan", "送风"]
+    - ["dry", "除湿"]
+    - ["auto", "自动"]
+
+fridge:
+  valid_fridge_temps:
+    - [1, "最低冷藏"]
+    - [4, "标准冷藏"]
+    - [9, "最高冷藏"]
+
+  valid_freezer_temps:
+    - [-24, "最低冷冻"]
+    - [-18, "标准冷冻"]
+    - [-15, "最高冷冻"]
+
+  modes:
+    - ["normal", "标准"]
+    - ["eco", "节能"]
+    - ["super_cool", "速冷"]
+    - ["super_freeze", "速冻"]
+    - ["vacation", "假日"]
+
+washer:
+  modes:
+    - ["standard", "标准洗"]
+    - ["quick", "快洗"]
+    - ["delicate", "轻柔洗"]
+    - ["heavy", "强力洗"]
+    - ["wool", "羊毛洗"]
+
+  water_levels:
+    - ["low", "低水位"]
+    - ["medium", "中水位"]
+    - ["high", "高水位"]
+    - ["auto", "自动"]
+
+  spin_speeds:
+    - [400, "400转"]
+    - [800, "800转"]
+    - [1400, "1400转"]
+
+  water_temps:
+    - [20, "冷水"]
+    - [30, "温水"]
+    - [60, "热水"]
+    - [90, "最高水温"]
+
+tv:
+  volumes:
+    - [0, "静音"]
+    - [20, "适中音量"]
+    - [100, "最大音量"]
+
+  sources:
+    - ["hdmi1", "HDMI1"]
+    - ["hdmi2", "HDMI2"]
+    - ["av", "AV"]
+    - ["tv", "电视信号"]
+    - ["usb", "USB"]
+
+  brightness_levels:
+    - [0, "最暗"]
+    - [50, "标准亮度"]
+    - [100, "最亮"]
