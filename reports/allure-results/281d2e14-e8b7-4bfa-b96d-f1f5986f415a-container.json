@@ -1,0 +1,1 @@
+{"uuid": "da8bdf38-c30f-41dd-a68d-0ca3ad61ae5f", "children": ["7eacb601-871e-4420-a261-17b10233965a"], "befores": [{"name": "cross_door_fridge", "status": "passed", "start": 1779349857263, "stop": 1779349857263}], "afters": [{"name": "cross_door_fridge::0", "status": "passed", "start": 1779349857264, "stop": 1779349857264}], "start": 1779349857263, "stop": 1779349857264}

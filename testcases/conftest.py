@@ -1,4 +1,4 @@
-"""testcases 层 conftest：模块级公共 fixtures"""
+"""testcases 层 conftest：公共 fixtures"""
 
 import pytest
 
@@ -13,5 +13,3 @@ def device_log():
         print(f"[DEVICE] {msg}")
 
     yield _log
-    if logs:
-        print(f"\n[LOG] 本次测试操作记录: {len(logs)} 条")

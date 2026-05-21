@@ -1,0 +1,1 @@
+{"uuid": "a8234189-9bd0-4a02-a1a6-12d9bae1541d", "children": ["057364df-16c5-4614-a6c6-5a7ca543995d"], "befores": [{"name": "french_door_fridge", "status": "passed", "start": 1779349885358, "stop": 1779349885358}], "afters": [{"name": "french_door_fridge::0", "status": "passed", "start": 1779349885359, "stop": 1779349885359}], "start": 1779349885358, "stop": 1779349885359}
