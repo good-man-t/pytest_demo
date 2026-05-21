@@ -1,1 +1,0 @@
-{"uuid": "55eca6c1-207d-412c-959b-fe16df093cde", "children": ["468d2d36-1d2f-4576-9b00-b407a4c2a55f"], "befores": [{"name": "fridge", "status": "passed", "start": 1779349856947, "stop": 1779349856947}], "afters": [{"name": "fridge::0", "status": "passed", "start": 1779349856949, "stop": 1779349856949}], "start": 1779349856947, "stop": 1779349856949}

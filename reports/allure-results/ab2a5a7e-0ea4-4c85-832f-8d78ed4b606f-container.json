@@ -1,1 +1,0 @@
-{"uuid": "523755b7-c618-4088-9df0-8661276c5789", "children": ["67bf0d82-dc78-45e4-ad20-dda72de2be02"], "befores": [{"name": "device_log", "status": "passed", "start": 1779349786250, "stop": 1779349786250}], "afters": [{"name": "device_log::0", "status": "passed", "start": 1779349786252, "stop": 1779349786252}], "start": 1779349786250, "stop": 1779349786252}

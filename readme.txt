@@ -64,8 +64,7 @@
   │       ├── test_uart_comm.py         # UART 协议（帧/校验/重试）
   │       └── test_i2c_comm.py          # I2C 协议（EEPROM/RTC/传感器）
   └── reports/
-      ├── allure-results/     # Allure 源数据
-      └── report.html         # pytest-html 报告
+          └── report.html         # pytest-html 报告
 
 【多门冰箱类型】
 
@@ -110,10 +109,6 @@
 
   HTML 报告（自动生成）:
     每次运行自动输出到 reports/report.html
-
-  Allure 报告：
-    $ allure generate reports/allure-results -o reports/allure-report --clean
-    $ allure open reports/allure-report
 
 【配置说明】
 
